@@ -344,8 +344,11 @@
         Certificate</guimenu>. If the <guimenu>Use Common Server
         Certificate</guimenu> is not available, because it has not been
         created during installation, go for <guimenu>Launch CA Management
-        Module</guimenu> first&mdash;for more information, see
-        <xref linkend="sec-security-yast-ca-module"/>.
+        Module</guimenu> first<!--
+         toms 2019-09-06: FIXME; need to be removed due to YaST CA module
+         &mdash;for more information, see
+        <xref linkend="sec-security-yast-ca-module"/>
+        -->.
        </para>
 <!--
       <itemizedlist>

@@ -621,9 +621,12 @@ PRE_DOWN_SCRIPT='systemd:openvpn@client'</screen>
     Before a VPN connection can be established, the client must authenticate
     the server certificate. Conversely, the server must also authenticate
     the client certificate. This is called <emphasis>mutual
-    authentication</emphasis>. To create such certificates, use the
+    authentication</emphasis>.
+    <!-- toms 2019-09-06: Disabled as there is no YaST CA module.
+    To create such certificates, use the
     &yast; CA module. See <xref linkend="cha-security-yast-ca"/> for more
     details.
+    -->
    </para>
    <para>
     To create a VPN root, server, and client CA, proceed as follows:
